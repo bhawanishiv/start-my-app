@@ -1,6 +1,6 @@
 {
   "name": "start-my-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple CLI to launch android device from available emulators",
   "main": "src/index.js",
   "bin": {
