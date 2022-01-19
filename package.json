@@ -1,0 +1,30 @@
+{
+  "name": "start-my-app",
+  "version": "0.0.1",
+  "description": "A simple CLI to launch android device from available emulators",
+  "main": "src/index.js",
+  "bin": {
+    "start-my-app": "bin/start-my-app"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "git@github.com:bhawanishiv/start-my-app.git",
+  "author": "Bhawani Shankar Bharti",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "cli",
+    "start-my-app"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "inquirer": "^8.2.0",
+    "shelljs": "^0.8.5"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ]
+}
