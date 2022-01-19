@@ -24,5 +24,5 @@ export const selectDevice = async (devices) => {
 };
 
 export const startDevice = (device) => {
-  shell.exec(`emulator @${device}`, { silent: true });
+  shell.exec(`emulator @${device}`);
 };
